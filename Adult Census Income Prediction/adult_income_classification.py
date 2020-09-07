@@ -83,7 +83,7 @@ if __name__ == '__main__':
 
     # Data Selection
     data = data_selection(data, relevant_features)
-    # data.to_csv('preprocessed_adult_census.csv')
+    # data.to_csv('preprocessed_adult_census_data.csv')
 
     # Splitting data into training and test data sets
     X = data.iloc[:, :-1]
